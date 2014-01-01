@@ -8,9 +8,10 @@ using ControlerPat;
 
 namespace InterimApplication
 {
+    /*
     public class ControlerMission : ControlerPattern
     {
 
-    }
+    }*/
 
 }

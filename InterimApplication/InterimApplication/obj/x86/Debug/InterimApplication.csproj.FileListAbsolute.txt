@@ -1,0 +1,9 @@
+C:\Users\Julien\Documents\GitHub\ProjectJulienAndAdrien\InterimApplication\InterimApplication\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Julien\Documents\GitHub\ProjectJulienAndAdrien\InterimApplication\InterimApplication\obj\x86\Debug\InterimApplication.MainInterimApp.resources
+C:\Users\Julien\Documents\GitHub\ProjectJulienAndAdrien\InterimApplication\InterimApplication\obj\x86\Debug\InterimApplication.Properties.Resources.resources
+C:\Users\Julien\Documents\GitHub\ProjectJulienAndAdrien\InterimApplication\InterimApplication\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\Julien\Documents\GitHub\ProjectJulienAndAdrien\InterimApplication\InterimApplication\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\Julien\Documents\GitHub\ProjectJulienAndAdrien\InterimApplication\InterimApplication\bin\Debug\InterimApplication.exe
+C:\Users\Julien\Documents\GitHub\ProjectJulienAndAdrien\InterimApplication\InterimApplication\bin\Debug\InterimApplication.pdb
+C:\Users\Julien\Documents\GitHub\ProjectJulienAndAdrien\InterimApplication\InterimApplication\obj\x86\Debug\InterimApplication.exe
+C:\Users\Julien\Documents\GitHub\ProjectJulienAndAdrien\InterimApplication\InterimApplication\obj\x86\Debug\InterimApplication.pdb

@@ -1,4 +1,0 @@
-c:\users\20100093\documents\visual studio 2012\Projects\InterimApplication\InterimApplication\obj\Release\InterimApplication.Properties.Resources.resources
-c:\users\20100093\documents\visual studio 2012\Projects\InterimApplication\InterimApplication\obj\Release\InterimApplication.csproj.GenerateResource.Cache
-c:\users\20100093\documents\visual studio 2012\Projects\InterimApplication\InterimApplication\obj\Release\InterimApplication.csprojResolveAssemblyReference.cache
-c:\users\20100093\documents\visual studio 2012\Projects\InterimApplication\InterimApplication\obj\Release\InterimApplication.MainInterimApp.resources

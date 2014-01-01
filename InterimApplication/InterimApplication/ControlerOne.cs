@@ -8,14 +8,14 @@ using ControlerPat;
 
 namespace InterimApplication
 {
-
+    /*
     public class ControlerEntreprisesClientes : ControlerPattern
     {
-        public override 
+        
     }
 
     public class ControlerEmploye : ControlerPattern
     {
 
-    }
+    }*/
 }

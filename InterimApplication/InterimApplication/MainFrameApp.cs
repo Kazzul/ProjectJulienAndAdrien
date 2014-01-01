@@ -27,7 +27,6 @@ namespace InterimApplication
             GestionInterimairesFrame newFrame = new GestionInterimairesFrame();
             this.AddOwnedForm(newFrame);
             newFrame.Activate();
-            newFrame.
         }
 
         private void button4_Click(object sender, EventArgs e)
