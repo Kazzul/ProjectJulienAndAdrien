@@ -49,7 +49,6 @@
     <Compile Include="src\Controlers\ControlerOne.cs" />
     <Compile Include="src\Controlers\ControlerPat.cs" />
     <Compile Include="src\Controlers\ControlerTwo.cs" />
-    <Compile Include="src\Controlers\XMLManagercs.cs" />
     <Compile Include="src\UnitTest\ControlerUnitTestClass.cs" />
     <Compile Include="src\Views\GestionInterimairesFrame.cs">
       <SubType>Form</SubType>
