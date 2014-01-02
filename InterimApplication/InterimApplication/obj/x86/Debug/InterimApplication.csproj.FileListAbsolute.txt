@@ -7,3 +7,4 @@ C:\Users\Julien\Documents\GitHub\ProjectJulienAndAdrien\InterimApplication\Inter
 C:\Users\Julien\Documents\GitHub\ProjectJulienAndAdrien\InterimApplication\InterimApplication\bin\Debug\InterimApplication.pdb
 C:\Users\Julien\Documents\GitHub\ProjectJulienAndAdrien\InterimApplication\InterimApplication\obj\x86\Debug\InterimApplication.exe
 C:\Users\Julien\Documents\GitHub\ProjectJulienAndAdrien\InterimApplication\InterimApplication\obj\x86\Debug\InterimApplication.pdb
+C:\Users\Julien\Documents\GitHub\ProjectJulienAndAdrien\InterimApplication\InterimApplication\obj\x86\Debug\InterimApplication.GestionInterimairesFrame.resources

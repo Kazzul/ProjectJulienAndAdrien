@@ -46,26 +46,31 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="ControlerOne.cs" />
-    <Compile Include="ControlerPat.cs" />
-    <Compile Include="ControlerTwo.cs" />
-    <Compile Include="GestionInterimairesFrame.cs">
+    <Compile Include="src\Controlers\ControlerOne.cs" />
+    <Compile Include="src\Controlers\ControlerPat.cs" />
+    <Compile Include="src\Controlers\ControlerTwo.cs" />
+    <Compile Include="src\Controlers\XMLManagercs.cs" />
+    <Compile Include="src\UnitTest\ControlerUnitTestClass.cs" />
+    <Compile Include="src\Views\GestionInterimairesFrame.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="GestionInterimairesFrame.designer.cs">
+    <Compile Include="src\Views\GestionInterimairesFrame.designer.cs">
       <DependentUpon>GestionInterimairesFrame.cs</DependentUpon>
     </Compile>
-    <Compile Include="MainFrameApp.cs">
+    <Compile Include="src\Views\MainFrameApp.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="MainFrameApp.designer.cs">
+    <Compile Include="src\Views\MainFrameApp.designer.cs">
       <DependentUpon>MainFrameApp.cs</DependentUpon>
     </Compile>
-    <Compile Include="Model.cs" />
-    <Compile Include="Personne.cs" />
-    <Compile Include="Program.cs" />
+    <Compile Include="src\Models\Model.cs" />
+    <Compile Include="src\Models\Personne.cs" />
+    <Compile Include="src\Models\Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="MainFrameApp.resx">
+    <EmbeddedResource Include="src\Views\GestionInterimairesFrame.resx">
+      <DependentUpon>GestionInterimairesFrame.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="src\Views\MainFrameApp.resx">
       <DependentUpon>MainFrameApp.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
@@ -86,6 +91,9 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="res\EntreprisesClientes.xml" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
