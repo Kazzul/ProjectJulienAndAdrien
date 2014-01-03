@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EntreprisesClientes>
+  <Entreprise>
+    <Nom>Dassault System</Nom>
+    <Adresse Country="France">10 rue Marcel Dassault, Velizy-Villacoublay</Adresse>
+    <NumSiret>712 042 456 00111</NumSiret>
+  </Entreprise>
+  <Entreprise>
+    <Nom>Atos Wordline</Nom>
+    <Adresse Country="France">80 Qauie Voltaire,Bezons</Adresse>
+    <NumSiret>378 901 946 00574</NumSiret>
+  </Entreprise>
+  <Entreprise>
+    <Nom>Test Companie</Nom>
+    <Adresse>2 Street Top of The World</Adresse>
+    <NumSiret>869 201 256 78562</NumSiret>
+  </Entreprise>
+</EntreprisesClientes>
