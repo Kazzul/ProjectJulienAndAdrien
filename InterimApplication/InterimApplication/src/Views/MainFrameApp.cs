@@ -8,7 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace InterimApplication
+namespace InterimApplication.src.Views
 {
     public partial class MainInterimApp : Form
     {
@@ -17,12 +17,18 @@ namespace InterimApplication
             InitializeComponent();
         }
 
-        private void button2_Click(object sender, EventArgs e)
+        private void buttonGestionEntreprisesClientes_Click(object sender, EventArgs e)
         {
-            GestionInterimairesFrame newFrame = new GestionInterimairesFrame();
-            this.AddOwnedForm(newFrame);
-            newFrame.Activate();
+            EntreprisesClientesManager frame = new EntreprisesClientesManager();
+            this.AddOwnedForm(frame);
+            frame.Activate();
+            frame.Show();
+
         }
 
+        private void MainInterimApp_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

@@ -4,6 +4,8 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
+using InterimApplication.src.Views;
+
 namespace InterimApplication
 {
     static class Program
@@ -18,9 +20,10 @@ namespace InterimApplication
 
             #region Testing Application Managment Before Launching Views
                 Console.WriteLine("#############################################################");
-                Console.WriteLine("=>" + UnitTest.ControlerUnitTestClass.TestChercherEntreprise());
-                Console.WriteLine("=>" + UnitTest.ControlerUnitTestClass.TestAjouterEntreprise());
-                Console.WriteLine("=>" + UnitTest.ControlerUnitTestClass.TestListerEntreprise());
+                Console.WriteLine("=>" + UnitTest.ControlerCustomerCorporationsUnitTestClass.TestChercherEntreprise());
+                Console.WriteLine("=>" + UnitTest.ControlerCustomerCorporationsUnitTestClass.TestAjouterEntreprise());
+                Console.WriteLine("=>" + UnitTest.ControlerCustomerCorporationsUnitTestClass.TestListerEntreprise());
+                Console.WriteLine("=>" + UnitTest.ControlerCustomerCorporationsUnitTestClass.TestSupprimerEntreprise());
                 Console.WriteLine("#############################################################");
             #endregion
 

@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Xml.Linq;
+using System.Xml;
 
 using Model;
 using Acthors;
@@ -20,7 +21,7 @@ namespace Controler
             IEnumerable<EntrepriseCliente> entrList =
                 from entr in doc.Elements()
                 where entr.Element("Nom") != null && entr.Element("Nom").Value.Contains(name)
-                select new EntrepriseCliente(entr.Element("Nom").Value,entr.Element("Adresse").Value, entr.Element("NumSiret").Value);
+                select generateElement(entr);
             return entrList.ToList();
         }
 
@@ -46,13 +47,12 @@ namespace Controler
         }
 
         override public bool supprimer(EntrepriseCliente o) {
-            XElement doc = XElement.Load("../../res/EntreprisesClientes.xml");
+            XmlDocument doc = new XmlDocument();
+            doc.Load("../../res/EntreprisesClientes.xml");
             if (this.chercher(o.nom).Contains(o))
             {
-                List<XElement> toSup = doc.Elements().Elements(o.nom).ToList();
-                foreach(XElement el in toSup){
-                    el.RemoveAll();
-                }
+                XmlNode node = doc.SelectSingleNode("/EntreprisesClientes/Entreprise[Nom='"+o.nom+"']");
+                node.ParentNode.RemoveChild(node);
                 doc.Save("../../res/EntreprisesClientes.xml");
                 return true;
             }         
@@ -69,6 +69,11 @@ namespace Controler
 
             return new XElement("Entreprise",nam,add,sir);
         }
+
+        public override EntrepriseCliente generateElement(XElement e)
+        {
+            return new EntrepriseCliente(e.Element("Nom").Value, e.Element("Adresse").Value, e.Element("NumSiret").Value);
+        }
     }
 
     public abstract class ControlerEmploye : ControlerPattern<PersonneEmployeInterim>
@@ -82,6 +87,8 @@ namespace Controler
         abstract override public bool supprimer(PersonneEmployeInterim o);
 
         abstract override public bool modifier(PersonneEmployeInterim oldObject, PersonneEmployeInterim newObject);
+
+        public abstract override PersonneEmployeInterim generateElement(XElement e);
     }
 
     

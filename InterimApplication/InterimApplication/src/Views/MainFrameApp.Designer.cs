@@ -1,4 +1,4 @@
-﻿namespace InterimApplication
+﻿namespace InterimApplication.src.Views
 {
     partial class MainInterimApp
     {
@@ -95,15 +95,17 @@
             this.buttonGestionEntreprisesClientes.TabIndex = 4;
             this.buttonGestionEntreprisesClientes.Text = "Gestion Entreprises Clientes";
             this.buttonGestionEntreprisesClientes.UseVisualStyleBackColor = true;
+            this.buttonGestionEntreprisesClientes.Click += new System.EventHandler(this.buttonGestionEntreprisesClientes_Click);
             // 
             // MainInterimApp
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(312, 315);
+            this.ClientSize = new System.Drawing.Size(338, 315);
             this.Controls.Add(this.groupBox1);
             this.Name = "MainInterimApp";
-            this.Text = "Form1";
+            this.Text = "Interim Manager";
+            this.Load += new System.EventHandler(this.MainInterimApp_Load);
             this.groupBox1.ResumeLayout(false);
             this.ResumeLayout(false);
 

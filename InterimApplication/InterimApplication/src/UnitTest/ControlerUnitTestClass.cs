@@ -8,7 +8,7 @@ using Model;
 
 namespace UnitTest
 {
-    public static class ControlerUnitTestClass
+    public static class ControlerCustomerCorporationsUnitTestClass
     {
         public static ControlerEntreprisesClientes cC = new ControlerEntreprisesClientes();
 
@@ -39,5 +39,22 @@ namespace UnitTest
             }
             return true;
         }
+
+        public static bool TestSupprimerEntreprise()
+        {
+            Console.WriteLine("Testing Delete a Customer in the XML file...");
+            cC.supprimer(new EntrepriseCliente("Test Companie", "2 Street Top of The World", "869 201 256 78562"));
+            List<EntrepriseCliente> myList = cC.lister();
+            if (myList.Contains(new EntrepriseCliente("Test Companie", "2 Street Top of The World", "869 201 256 78562")))
+            {
+                return false;
+            }
+            return true;
+        }
+    }
+
+    public static class ControlerEmployeTestClass
+    {
+
     }
 }
