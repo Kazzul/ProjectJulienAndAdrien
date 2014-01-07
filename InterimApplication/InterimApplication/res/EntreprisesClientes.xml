@@ -15,4 +15,9 @@
     <Adresse Country="France">46 Rue Camille Desmoulins, Issy-les-Moulineaux</Adresse>
     <NumSiret>562 082 909 01190</NumSiret>
   </Entreprise>
+  <Entreprise>
+    <Nom>Informatique CDC</Nom>
+    <Adresse>56 Rue de Lille, Paris</Adresse>
+    <NumSiret>775 665 433 00014</NumSiret>
+  </Entreprise>
 </EntreprisesClientes>
