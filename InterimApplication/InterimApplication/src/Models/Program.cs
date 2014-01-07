@@ -23,7 +23,7 @@ namespace InterimApplication
                 Console.WriteLine("=>" + UnitTest.ControlerCustomerCorporationsUnitTestClass.TestChercherEntreprise());
                 Console.WriteLine("=>" + UnitTest.ControlerCustomerCorporationsUnitTestClass.TestAjouterEntreprise());
                 Console.WriteLine("=>" + UnitTest.ControlerCustomerCorporationsUnitTestClass.TestListerEntreprise());
-                Console.WriteLine("=>" + UnitTest.ControlerCustomerCorporationsUnitTestClass.TestSupprimerEntreprise());
+                //Console.WriteLine("=>" + UnitTest.ControlerCustomerCorporationsUnitTestClass.TestSupprimerEntreprise());
                 Console.WriteLine("#############################################################");
             #endregion
 

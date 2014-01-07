@@ -23,12 +23,6 @@ namespace InterimApplication.src.Views
             this.AddOwnedForm(frame);
             frame.Activate();
             frame.Show();
-
-        }
-
-        private void MainInterimApp_Load(object sender, EventArgs e)
-        {
-
         }
     }
 }

@@ -105,7 +105,6 @@
             this.Controls.Add(this.groupBox1);
             this.Name = "MainInterimApp";
             this.Text = "Interim Manager";
-            this.Load += new System.EventHandler(this.MainInterimApp_Load);
             this.groupBox1.ResumeLayout(false);
             this.ResumeLayout(false);
 

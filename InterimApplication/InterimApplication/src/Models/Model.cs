@@ -22,6 +22,29 @@ namespace Model
         public EntrepriseCliente(string n, string ad, string num){nom = n; adresse = ad; numSiret = num; }
         #endregion
 
+        public string Entreprise {
+         get
+            {
+                return nom;
+            }
+            set
+            {
+                nom = value;
+            }
+        }
+        public string Adresse 
+        {
+            get { return adresse; }
+            set
+            {
+                adresse = value;
+            }
+        }
+        public string Siret 
+        { 
+            get { return numSiret; } set { numSiret = value; } 
+        }
+
         public override string ToString()
         {
             return nom + ": " + adresse + ": " + numSiret;
